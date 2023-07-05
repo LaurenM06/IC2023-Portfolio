@@ -326,3 +326,15 @@ hr{
 .backButton:hover{
     background-color:rgb(88, 108, 83);
 }
+
+.perryImage{
+    float:right;
+    margin: 5px;
+    border: 2px solid rgb(70, 55, 35);
+}
+.schoolingLabel{
+    text-align:center;
+}
+.schoolingContent{
+    text-align:justify;
+}
