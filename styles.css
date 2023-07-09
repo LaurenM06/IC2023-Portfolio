@@ -1,7 +1,7 @@
 .background{
     background-image: url(https://secure.img1-cg.wfcdn.com/im/20706216/compr-r85/8829/88294050/random-width-x-varying-length-barnwood-wall-paneling.jpg
     );
-    height:1000px;
+    height:100%;
     background-position:center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -19,21 +19,41 @@ body{
 }
 .header{
     background-color:rgb(159, 133, 96);
-    height:8%;
     text-align:center;
-    margin-bottom:10px;
     border-bottom:2px solid rgb(70, 55, 35);
-    
 }
 .title{
     text-align:center;
     font-size:400%;
+    vertical-align:middle;
 }
 hr{
     border: 5px solid rgb(70, 55, 35);
     margin:0px;
     margin-bottom:10px;
 }
+h3{
+    text-align:center;
+}
+.thinHr{
+    border: 1px solid rgb(70, 55, 35);
+    margin:0px;
+    margin-bottom:10px;
+}
+.intro{
+    display:flex;
+    justify-content: space-around;
+    text-align:justify;
+    padding:8px;
+}
+.profileImage{
+    border-radius:50%;
+    width: 250%;
+  
+    margin:10px;
+}
+
+
 .firstRowButtons{
     display:flex;
     justify-content:space-around;
@@ -44,6 +64,14 @@ hr{
     width:20%;
     margin:0px;
     padding:5px;
+}
+
+.homePageLabel{
+    background-color:rgb(232, 192, 140);
+    width:20%;
+    margin:0px;
+    padding:5px;
+    color: rgb(71, 69, 69);
 }
 .homePageImage1{
     width:100px;
@@ -332,9 +360,35 @@ hr{
     margin: 5px;
     border: 2px solid rgb(70, 55, 35);
 }
+.vincennesImage{
+    float:left;
+    margin: 5px;
+    border: 2px solid rgb(70, 55, 35);
+}
 .schoolingLabel{
     text-align:center;
 }
-.schoolingContent{
+.contentSchooling{
     text-align:justify;
+    padding:8px;
+}
+.schoolingHeader{
+    background-color:rgb(160, 179, 156);
+    border: 2px solid rgb(70, 55, 35);
+    padding:5px;
+}
+.volunteeringDescription{
+    text-align:center;
+}
+.imgRight{
+    float:right;
+    width:auto;
+}
+.imgLeft{
+    float:left;
+    width:auto;
+}
+.volunteeringContent{
+    display:flex;
+    justify-content: space-around;
 }
