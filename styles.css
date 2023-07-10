@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:fixed;
+    top:0px;
 }
 .content{
     background-color:rgb(255, 255, 255);
@@ -13,18 +14,34 @@
     height:100%;
     margin-left:20%;
     margin-right:20%;
+    top:0px;
 }
 body{
     margin:0px;
+    top:0px;
 }
 .header{
     background-color:rgb(159, 133, 96);
     text-align:center;
     border-bottom:2px solid rgb(70, 55, 35);
+    top:0px;
+    padding-top:4%;
 }
 .title{
     text-align:center;
-    font-size:400%;
+    font-size:300%;
+    vertical-align:middle;
+}
+.homeHeader{
+    background-color:rgb(159, 133, 96);
+    text-align:center;
+    border-bottom:2px solid rgb(70, 55, 35);
+    top:0px;
+    padding-top:1%;
+}
+.homeTitle{
+    text-align:center;
+    font-size:300%;
     vertical-align:middle;
 }
 hr{
@@ -391,4 +408,47 @@ h3{
 .volunteeringContent{
     display:flex;
     justify-content: space-around;
+}
+.list{
+    border: 1px solid rgb(70, 55, 35);
+    padding:5px;
+    width:20%;
+}
+.jobImage{
+    width:20%;
+}
+.navButtons{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+}
+.navBar{
+    width:100%;
+    position:fixed;
+    margin:0px;
+    top:0px;
+    
+}
+.navButton{
+    width:20%;
+    margin-top:0px;
+    background-color:rgb(236, 243, 236);
+    border: 0px solid rgb(236, 243, 236);
+    padding:1%;
+    border-bottom: 2px solid rgb(178, 184, 178)
+}
+.navButton:hover{
+    background-color:rgb(193, 199, 193);
+    border: 0px solid white;
+}
+.contactImages{
+    display:flex;
+    justify-content:center;
+}
+.contactImage{
+    width: 5%;
+    margin:10px;
+}
+.phoneNumber{
+    text-align:center;
 }
