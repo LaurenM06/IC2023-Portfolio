@@ -191,7 +191,16 @@ h3{
 .roboticsButton:hover{
     background-color:rgb(88, 108, 83);
 }
-
+.extraImage{
+    width: 20%;
+    margin: 4px;
+    border: 2px solid rgb(70, 55, 35);
+}
+.volImage{
+    width: 40%;
+    margin: 4px;
+    border: 2px solid rgb(70, 55, 35);
+}
 .mathLeagueButton{
     width:100%;
     padding: 0px;
