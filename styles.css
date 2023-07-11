@@ -7,6 +7,7 @@
     background-size:cover;
     background-attachment:fixed;
     top:0px;
+    bottom:0px;
 }
 .content{
     background-color:rgb(255, 255, 255);
