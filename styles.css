@@ -192,6 +192,8 @@ h3{
 .roboticsContent{
     display:none;
     justify-content: space-around;
+    background-color:rgb(225, 209, 186);
+    border: 2px solid rgb(70, 55, 35);
 }
 .roboticsButton:hover{
     background-color:rgb(88, 108, 83);
@@ -204,6 +206,11 @@ h3{
 }
 .volImage{
     width:30%;
+    margin: 4px;
+    border: 2px solid rgb(70, 55, 35);
+}
+.vexImage{
+    width:40%;
     margin: 4px;
     border: 2px solid rgb(70, 55, 35);
 }
@@ -238,6 +245,8 @@ h3{
 .mathLeagueContent{
     display:none;
     justify-content: space-around;
+    background-color:rgb(225, 209, 186);
+    border: 2px solid rgb(70, 55, 35);
 }
 .mathLeagueButton:hover{
     background-color:rgb(88, 108, 83);
@@ -260,6 +269,8 @@ h3{
 .NHSContent{
     display:none;
     justify-content: space-around;
+    background-color:rgb(225, 209, 186);
+    border: 2px solid rgb(70, 55, 35);
 }
 .NHSButton:hover{
     background-color:rgb(88, 108, 83);
@@ -281,6 +292,8 @@ h3{
 .enviroContent{
     display:none;
     justify-content: space-around;
+    background-color:rgb(225, 209, 186);
+    border: 2px solid rgb(70, 55, 35);
 }
 .enviroButton:hover{
     background-color:rgb(88, 108, 83);
@@ -302,6 +315,8 @@ h3{
 .techCrewContent{
     display:none;
     justify-content: space-around;
+    background-color:rgb(225, 209, 186);
+    border: 2px solid rgb(70, 55, 35);
 }
 .techCrewButton:hover{
     background-color:rgb(88, 108, 83);
@@ -324,6 +339,8 @@ h3{
 .EWCContent{
     display:none;
     justify-content: space-around;
+    background-color:rgb(225, 209, 186);
+    border: 2px solid rgb(70, 55, 35);
 }
 .EWCButton:hover{
     background-color:rgb(88, 108, 83);
@@ -346,6 +363,8 @@ h3{
 .keyClubContent{
     display:none;
     justify-content: space-around;
+    background-color:rgb(225, 209, 186);
+    border: 2px solid rgb(70, 55, 35);
 }
 .keyClubButton:hover{
     background-color:rgb(88, 108, 83);
@@ -368,6 +387,8 @@ h3{
 .bookContent{
     display:none;
     justify-content: space-around;
+    background-color:rgb(225, 209, 186);
+    border: 2px solid rgb(70, 55, 35);
 }
 .bookButton:hover{
     background-color:rgb(88, 108, 83);
@@ -390,6 +411,8 @@ h3{
 .artContent{
     display:none;
     justify-content: space-around;
+    background-color:rgb(225, 209, 186);
+    border: 2px solid rgb(70, 55, 35);
 }
 .artButton:hover{
     background-color:rgb(88, 108, 83);
