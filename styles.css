@@ -1,7 +1,7 @@
 .background{
     background-image: url(https://secure.img1-cg.wfcdn.com/im/20706216/compr-r85/8829/88294050/random-width-x-varying-length-barnwood-wall-paneling.jpg
     );
-    height:100vh;
+    height:100%;
     background-position:center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -18,6 +18,10 @@
     top:0px;
     border: 1px solid rgb(70, 55, 35);
 }
+h3{
+    text-align:center;
+}
+
 body{
     margin:0px;
     top:0px;
@@ -398,15 +402,18 @@ h3{
 .backButton:hover{
     background-color:rgb(88, 108, 83);
 }
-
+.clubPara{
+    padding:10px;
+    line-height:1.5;
+}
 .perryImage{
-    float:right;
+    width:20%;
     margin: 5px;
     border: 2px solid rgb(70, 55, 35);
     object-fit:cover;
 }
 .vincennesImage{
-    float:left;
+    width:25%;
     margin: 5px;
     border: 2px solid rgb(70, 55, 35);
 }
@@ -414,7 +421,6 @@ h3{
     text-align:center;
 }
 .contentSchooling{
-    text-align:justify;
     padding:8px;
 }
 .schoolingHeader{
@@ -422,10 +428,14 @@ h3{
     border: 2px solid rgb(70, 55, 35);
     padding:5px;
 }
+.schoolingContent{
+    padding:10px;
+}
 .volDescription{
     text-align:center;
     padding:5px;
     line-height:1.5;
+    font-size: 20px;
 }
 .imgRight{
     float:right;
@@ -455,6 +465,12 @@ h3{
     border: 1px solid rgb(70, 55, 35);
     margin: 20px;
 }
+.jobImage2{
+    width:20%;
+    object-fit:cover;
+    border: 1px solid rgb(70, 55, 35);
+    margin: 20px;
+}
 .navButtons{
     display:flex;
     justify-content:space-between;
@@ -471,6 +487,14 @@ h3{
     width:20%;
     margin-top:0px;
     background-color:rgb(236, 243, 236);
+    border: 0px solid rgb(236, 243, 236);
+    padding:1%;
+    border-bottom: 2px solid rgb(178, 184, 178)
+}
+.navLabel{
+    width:20%;
+    margin-top:0px;
+    background-color:rgb(193, 199, 193);
     border: 0px solid rgb(236, 243, 236);
     padding:1%;
     border-bottom: 2px solid rgb(178, 184, 178)
