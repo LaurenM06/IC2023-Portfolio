@@ -37,6 +37,7 @@ body{
     text-align:center;
     font-size:300%;
     vertical-align:middle;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 .homeHeader{
     background-color:rgb(159, 133, 96);
@@ -67,13 +68,21 @@ h3{
     display:flex;
     justify-content: space-around;
 }
+.introParagraph{
+    display:block;
+    margin-top:auto;
+    margin-bottom:auto;
+    padding: 30px;
+    font-size: 18px;
+    line-height: 1.5;
+}
 .profileImage{
     border-radius:50%;
-    width: 200vw;
-    height: 75vh;
+    width: 87vw;
+    height: 47vh;
     object-fit:cover;
     object-position: 50% 0%;
-    margin:10px;
+    margin:2vw;
     border: 2px solid rgb(70, 55, 35);
 }
 .secondContent{
@@ -86,7 +95,9 @@ h3{
     top:0px;
     line-height:1.5;
 }
-
+.center{
+    text-align:center;
+}
 .firstRowButtons{
     display:flex;
     justify-content:space-around;
@@ -97,6 +108,7 @@ h3{
     width:20%;
     margin:0px;
     padding:5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .homePageLabel{
@@ -105,62 +117,28 @@ h3{
     margin:0px;
     padding:5px;
     color: rgb(71, 69, 69);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .homePageImage1{
-    width:100px;
-    height:100px;
-    object-fit:cover;
-    margin:0px;
-    object-position: center top;
+    width:12vw;
 }
 .homePageImage2{
-    width:100px;
-    height:100px;
-    object-fit:cover;
-    margin:0px;
-    object-position: center top;
+    width:12vw;
 }
 .homePageImage3{
-    width:100px;
-    height:100px;
-    object-fit:cover;
-    margin:0px;
-    object-position: center top;
+    width:12vw;
 }
 .homePageImage4{
-    width:100px;
-    height:100px;
-    object-fit:cover;
-    margin:0px;
-    object-position: center top;
+    width:12vw;
 }
 .homePageImage5{
-    width:100px;
-    height:100px;
-    object-fit:cover;
-    margin:0px;
-    object-position: center top;
+    width:12vw;
 }
 .homePageImage6{
-    width:100px;
-    height:100px;
-    object-fit:cover;
-    margin:0px;
-    object-position: center top;
+    width:12vw;
 }
 .homePageImage7{
-    width:100px;
-    height:100px;
-    object-fit:cover;
-    margin:0px;
-    object-position: center top;
-}
-.homePageImage8{
-    width:100px;
-    height:100px;
-    object-fit:cover;
-    margin:0px;
-    object-position: center top;
+    width:12vw;
 }
 .firstRowImages{
     display:flex;
@@ -175,6 +153,7 @@ h3{
     width:20%;
     margin:0px;
     padding:5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .secondRowButtons{
@@ -193,6 +172,7 @@ h3{
     padding: 0px;
     background-color:rgb(160, 179, 156);
     border: 2px solid rgb(88, 108, 83);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .roboticsDiv{
     display:flex;
@@ -214,11 +194,21 @@ h3{
     object-fit:cover;
 }
 .volImage{
-    width: 35%;
+    width:30%;
     margin: 4px;
     border: 2px solid rgb(70, 55, 35);
+}
+.centerImage{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border: 2px solid rgb(70, 55, 35);
     object-fit:cover;
-
+}
+.iriImage{
+    width:40%;
+    margin: 4px;
+    border: 2px solid rgb(70, 55, 35);
 }
 .jobPara{
     line-height:1.5;
@@ -228,6 +218,7 @@ h3{
     padding: 0px;
     background-color:rgb(160, 179, 156);
     border: 2px solid rgb(88, 108, 83);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .mathLeagueDiv{
     display:flex;
@@ -249,6 +240,7 @@ h3{
     padding: 0px;
     background-color:rgb(160, 179, 156);
     border: 2px solid rgb(88, 108, 83);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .NHSDiv{
     display:flex;
@@ -270,7 +262,7 @@ h3{
     padding: 0px;
     background-color:rgb(160, 179, 156);
     border: 2px solid rgb(88, 108, 83);
-}
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 .enviroDiv{
     display:flex;
     justify-content: space-between;
@@ -290,6 +282,7 @@ h3{
     padding: 0px;
     background-color:rgb(160, 179, 156);
     border: 2px solid rgb(88, 108, 83);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .techCrewDiv{
     display:flex;
@@ -311,6 +304,7 @@ h3{
     padding: 0px;
     background-color:rgb(160, 179, 156);
     border: 2px solid rgb(88, 108, 83);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .EWCDiv{
     display:flex;
@@ -332,6 +326,7 @@ h3{
     padding: 0px;
     background-color:rgb(160, 179, 156);
     border: 2px solid rgb(88, 108, 83);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .keyClubDiv{
     display:flex;
@@ -353,6 +348,7 @@ h3{
     padding: 0px;
     background-color:rgb(160, 179, 156);
     border: 2px solid rgb(88, 108, 83);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .bookDiv{
     display:flex;
@@ -374,6 +370,7 @@ h3{
     padding: 0px;
     background-color:rgb(160, 179, 156);
     border: 2px solid rgb(88, 108, 83);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .artDiv{
     display:flex;
@@ -405,6 +402,11 @@ h3{
 .clubPara{
     padding:10px;
     line-height:1.5;
+}
+.volPara{
+    padding: 10px;
+    line-height:1.5;
+    font-size: 14px;
 }
 .perryImage{
     width:20%;
@@ -489,7 +491,8 @@ h3{
     background-color:rgb(236, 243, 236);
     border: 0px solid rgb(236, 243, 236);
     padding:1%;
-    border-bottom: 2px solid rgb(178, 184, 178)
+    border-bottom: 2px solid rgb(178, 184, 178);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .navLabel{
     width:20%;
@@ -497,7 +500,8 @@ h3{
     background-color:rgb(193, 199, 193);
     border: 0px solid rgb(236, 243, 236);
     padding:1%;
-    border-bottom: 2px solid rgb(178, 184, 178)
+    border-bottom: 2px solid rgb(178, 184, 178);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .navButton:hover{
     background-color:rgb(193, 199, 193);
@@ -505,4 +509,61 @@ h3{
 }
 .phoneNumber{
     text-align:center;
+}
+.skills{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.projectImage{
+    width: 20vw;
+    margin: 10px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border: 2px solid rgb(70, 55, 35);
+}
+.projectImageNolan{
+    width: 10vw;
+    margin: 10px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border: 2px solid rgb(70, 55, 35);
+}
+
+.projectImageMountain{
+    width: 17vw;
+    margin: 10px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border: 2px solid rgb(70, 55, 35);
+}
+.projectDes{
+    width: 20vw;
+    margin: 10px;
+    padding: 10px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.outline{
+    border: 2px solid rgb(70, 55, 35);
+    background-color: white;
+
+}
+.projectHr{
+    border: 1px solid rgb(70, 55, 35);
+    width: 15vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+.projects{
+        background-color:rgb(225, 209, 186);
+}
+.blocks{
+    background-color:white;
+    padding: 20px;
+    border:  2px solid rgb(70, 55, 35);
 }
