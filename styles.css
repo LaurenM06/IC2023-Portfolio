@@ -1,7 +1,7 @@
 .background{
     background-image: url(https://secure.img1-cg.wfcdn.com/im/20706216/compr-r85/8829/88294050/random-width-x-varying-length-barnwood-wall-paneling.jpg
     );
-    height:100%;
+    height:100vh;
     background-position:center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -424,6 +424,8 @@ h3{
 }
 .volDescription{
     text-align:center;
+    padding:5px;
+    line-height:1.5;
 }
 .imgRight{
     float:right;
