@@ -15,6 +15,7 @@
     margin-left:20%;
     margin-right:20%;
     top:0px;
+    border: 1px solid rgb(70, 55, 35);
 }
 body{
     margin:0px;
@@ -60,16 +61,26 @@ h3{
 .intro{
     display:flex;
     justify-content: space-around;
-    text-align:justify;
-    padding:8px;
 }
 .profileImage{
     border-radius:50%;
-    width: 250%;
-  
+    width: 200vw;
+    height: 75vh;
+    object-fit:cover;
+    object-position: 50% 0%;
     margin:10px;
+    border: 2px solid rgb(70, 55, 35);
 }
-
+.secondContent{
+    margin-top: 70px;
+    background-color:rgb(255, 255, 255);
+    width:60%;
+    height:100%;
+    margin-left:20%;
+    margin-right:20%;
+    top:0px;
+    line-height:1.5;
+}
 
 .firstRowButtons{
     display:flex;
@@ -195,11 +206,17 @@ h3{
     width: 20%;
     margin: 4px;
     border: 2px solid rgb(70, 55, 35);
+    object-fit:cover;
 }
 .volImage{
-    width: 40%;
+    width: 35%;
     margin: 4px;
     border: 2px solid rgb(70, 55, 35);
+    object-fit:cover;
+
+}
+.jobPara{
+    line-height:1.5;
 }
 .mathLeagueButton{
     width:100%;
@@ -385,6 +402,7 @@ h3{
     float:right;
     margin: 5px;
     border: 2px solid rgb(70, 55, 35);
+    object-fit:cover;
 }
 .vincennesImage{
     float:left;
@@ -403,28 +421,36 @@ h3{
     border: 2px solid rgb(70, 55, 35);
     padding:5px;
 }
-.volunteeringDescription{
+.volDescription{
     text-align:center;
 }
 .imgRight{
     float:right;
     width:auto;
+    object-fit:cover;
+    
 }
 .imgLeft{
     float:left;
     width:auto;
+    object-fit:cover;
 }
 .volunteeringContent{
     display:flex;
     justify-content: space-around;
+    margin: 10px;
 }
 .list{
     border: 1px solid rgb(70, 55, 35);
     padding:5px;
     width:20%;
+    margin: 20px;
 }
 .jobImage{
-    width:20%;
+    width:30%;
+    object-fit:cover;
+    border: 1px solid rgb(70, 55, 35);
+    margin: 20px;
 }
 .navButtons{
     display:flex;
@@ -449,14 +475,6 @@ h3{
 .navButton:hover{
     background-color:rgb(193, 199, 193);
     border: 0px solid white;
-}
-.contactImages{
-    display:flex;
-    justify-content:center;
-}
-.contactImage{
-    width: 5%;
-    margin:10px;
 }
 .phoneNumber{
     text-align:center;
