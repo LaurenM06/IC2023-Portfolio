@@ -9,6 +9,7 @@
     top:0px;
     bottom:0px;
 }
+
 .content{
     background-color:rgb(255, 255, 255);
     width:60%;
@@ -21,7 +22,13 @@
 h3{
     text-align:center;
 }
-
+.projectTitle{
+    font-family: 'Parisienne', cursive;
+    padding-top: 2%;
+}
+.schoolingHeader{
+    margin-top:0px;
+}
 body{
     margin:0px;
     top:0px;
@@ -37,7 +44,7 @@ body{
     text-align:center;
     font-size:300%;
     vertical-align:middle;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family: 'Parisienne', cursive;
 }
 .homeHeader{
     background-color:rgb(159, 133, 96);
@@ -45,8 +52,10 @@ body{
     border-bottom:2px solid rgb(70, 55, 35);
     top:0px;
     padding-top:1%;
+    font-family: 'Parisienne', cursive;
 }
 .homeTitle{
+    font-family: 'Parisienne', cursive;
     text-align:center;
     font-size:300%;
     vertical-align:middle;
@@ -438,6 +447,10 @@ h3{
     padding:5px;
     line-height:1.5;
     font-size: 20px;
+    margin-top:auto;
+    margin-bottom:auto;
+    font-family: 'Playfair', serif;
+    font-weight: 600;
 }
 .imgRight{
     float:right;
